@@ -1,0 +1,18 @@
+.header {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__link {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    &:hover,
+    &--active {
+      color: #84dfff;
+    }
+  }
+}
